@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^aewsdn\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.aewsdn\.com$
+RewriteRule ^aewsdn$ "http\:\/\/www\.aew\-sdn\.com\/public_html" [R=302,L]
+
+
+
+
+
+
+
